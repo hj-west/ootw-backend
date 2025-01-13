@@ -52,8 +52,7 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 
-	// https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter
-	implementation("io.springfox:springfox-boot-starter:3.0.0")
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.7.0")
 
 	implementation("org.springframework.boot:spring-boot-starter-mail") // Email
 }
